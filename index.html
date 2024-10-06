@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Your Site Title</title>
+    <title>Synapulse</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Google Fonts (Load before any CSS) -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-    <!-- Squarespace CSS (Retained for Image Effect) -->
+    <!-- Squarespace CSS Files (Retained for Image Effect and Styles) -->
     <link rel="stylesheet" type="text/css" href="site.css"/>
     <link rel="stylesheet" type="text/css" href="static.css">
 
@@ -18,69 +18,111 @@
         body {
             font-family: 'Roboto', sans-serif;
         }
-        /* Additional custom styles */
-        h1, h2, h3, h4, h5, h6, p, a, li {
+
+        /* Override Squarespace styles if necessary */
+        .sqs-block-content,
+        .sqs-block-content p,
+        .sqs-block-content h1,
+        .sqs-block-content h2,
+        .sqs-block-content h3,
+        .sqs-block-content h4,
+        .sqs-block-content h5,
+        .sqs-block-content h6 {
             font-family: 'Roboto', sans-serif;
         }
-    </style>
-</head>
-<body>
 
-    <!-- Header (Optional) -->
-    <header>
-        <!-- Your header content -->
+        /* Additional custom styles if needed */
+        /* ... */
+    </style>
+
+    <!-- Squarespace JavaScript Files (Retained for Image Effect and Functionality) -->
+    <script src="//assets.squarespace.com/universal/scripts-compressed/common-9ba279e1e3f0b3d3f7d1-min.en-US.js"></script>
+    <!-- Include all other Squarespace JS files as-is -->
+    <!-- ... -->
+</head>
+<body id="collection-6519a5748027805b37640380" class="... sqs-seven-one">
+    <!-- Header -->
+    <header data-test="header" id="header" class="header" data-controller="Header">
+        <!-- Include all header content as-is -->
+        <div class="header-inner container--fluid">
+            <div class="header-title">
+                <div class="header-title-text">
+                    <a id="site-title" href="/">Synapulse</a>
+                </div>
+            </div>
+            <!-- ... other header elements ... -->
+        </div>
     </header>
 
     <!-- Main Content -->
-    <main>
-        <!-- Section with Image Effect -->
-        <section
-            class="page-section"
-            data-controller="SectionWrapperController"
-            data-section-theme="black-bold"
-            data-animation="none"
-        >
-            <div class="section-border">
-                <div class="section-background">
-                    <div
-                        class="section-background-content"
-                        data-controller="BackgroundImageFXRefractedLines"
-                    >
-                        <img
-                            src="your-image.jpg"
-                            alt=""
-                            class="background-image-fx"
-                            data-image-dimensions="1024x1024"
-                            data-image-focal-point="0.5,0.5"
+    <main id="page" class="container" role="main">
+        <!-- Sections -->
+        <article class="sections" id="sections" data-page-sections="6519a5748027805b3764037f">
+            <!-- Section 1 -->
+            <section
+                data-test="page-section"
+                data-section-theme="black-bold"
+                class="page-section full-bleed-section layout-engine-section black-bold"
+                data-section-id="6519a5748027805b37640383"
+                data-controller="SectionWrapperController"
+                data-animation="none"
+                data-fluid-engine-section
+            >
+                <div class="section-border">
+                    <div class="section-background">
+                        <!-- Background and Image Effect -->
+                        <div
+                            class="section-background-content"
+                            data-controller="BackgroundImageFXRefractedLines"
                         >
-                        <div class="section-background-canvas background-fx-canvas"></div>
+                            <img
+                                src="https://images.squarespace-cdn.com/content/v1/6519a54a2243c270e3acd5f7/011a5ceb-7666-4f5f-84ae-c694e32bc566/_21e7099b-16c3-42f7-99c2-2ef965c95a69.jpeg"
+                                alt=""
+                                class="background-image-fx"
+                                data-image-dimensions="1024x1024"
+                                data-image-focal-point="0.5,0.5"
+                                loading="eager"
+                                decoding="async"
+                            >
+                            <div class="section-background-canvas background-fx-canvas"></div>
+                        </div>
+                        <div class="section-background-overlay" style="opacity: 0.18;"></div>
                     </div>
-                    <div class="section-background-overlay" style="opacity: 0.18;"></div>
                 </div>
-            </div>
-            <div class="content-wrapper">
-                <div class="content">
-                    <!-- Your content goes here -->
-                    <h1>Welcome to Your Site</h1>
-                    <p>This is a sample paragraph using the Roboto font.</p>
+                <div class="content-wrapper">
+                    <div class="content">
+                        <!-- Content Blocks -->
+                        <div data-fluid-engine="true">
+                            <style>
+                                /* Include any necessary inline styles */
+                            </style>
+                            <div class="fluid-engine fe-6519a5748027805b37640382">
+                                <div class="fe-block fe-block-5a76af974238ef353d47">
+                                    <div class="sqs-block html-block sqs-block-html">
+                                        <div class="sqs-block-content">
+                                            <div class="sqs-html-content">
+                                                <h2 style="white-space:pre-wrap;">Life. Re-Engineered.</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ... other blocks ... -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer (Optional) -->
-    <footer>
-        <!-- Your footer content -->
-    </footer>
-
-    <!-- Squarespace JavaScript (Retained for Image Effect) -->
-    <script src="site-bundle.js"></script>
-    <!-- Include any other Squarespace scripts necessary for the image effect -->
-
-    <!-- Your Custom Scripts (if any) -->
-    <script>
-        // Your custom JavaScript
-    </script>
-</body>
-</html>
-
+            </section>
+            <!-- Section 2 -->
+            <section
+                data-test="page-section"
+                data-section-theme="black"
+                class="page-section full-bleed-section layout-engine-section black"
+                data-section-id="6519a5748027805b37640386"
+                data-controller="SectionWrapperController"
+                data-animation="none"
+                data-fluid-engine-section
+            >
+                <!-- Similar structure for Section 2 -->
+                <!-- ... -->
+            </section>
+            <!-- ... other sections ... -->
